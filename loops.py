@@ -1,3 +1,4 @@
+"""
 #For loop
 fruits = ["apple", "mangoes", "jackfruit", "banana", "berry"]
 #for item in fruits:
@@ -42,4 +43,30 @@ for item in animals:
    if item == "dog":
       print(item)
       break
-      
+   
+
+
+count = [0, 1, 2, 3]
+password = "secure123"
+for i in count:
+    user_input = input("Enter your password here")
+    if user_input ==password:
+       print("logged in successfully")
+    else:
+          print("incorrect password. please try again")                 
+ """                      
+count = [0, 1, 2]
+password = "secure123"
+entered = 0
+for i in count:
+    user_input = input("Enter your password here.\n")
+    entered += 1
+
+    if user_input == password:
+        print("Logged in successfully")
+        #break
+    else:
+        print("incorrect password, please try again")
+    if entered == 3:
+        print("you have entered a wrong password 3 times")
+        break    

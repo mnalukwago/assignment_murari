@@ -1,11 +1,14 @@
 # you declared a variable called some_string and assigned a string to it 
 some_string = 'Python is fun' 
 
+
 # declaring different variables and assigning them different values in a single line
 a, b, c = 5, 3.2, 'Hello'
 
 
+
 print(a)  # the ouput is 5
+
 print(b)  # the output is 3.2
 print(c)  # the output is Hello
 
@@ -108,12 +111,7 @@ print(product[1])   # Xbox is the output
 
 
 
-# (arithmetic operators) declaring two variables (a,b) and assign them different values(7, 2)
-a = 7
-b = 2
-
-# printing the addition operator; output = 9
-print ('Sum: ', a + b)  
+cd
 
 # printing the subtraction operator; output = 5
 print ('Subtraction: ', a - b)   

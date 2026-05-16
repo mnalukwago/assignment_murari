@@ -1,3 +1,4 @@
+"""
 language = "python"
 if "language" == "python":
     print("language is python")
@@ -53,3 +54,13 @@ elif language == "java":
     print("language is java")
 else:
     print("No match")
+"""
+
+def student_details():
+    student = {"name": "edrine", "age": 20, "gender":"male", "track": "python"}
+    marks = [15, 20, 45, 35, 29]
+    report = print(student["name"])
+    for i in marks:
+        print(f"{student["name"]}, scored {i}")
+student_details()    
+    
